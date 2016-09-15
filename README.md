@@ -1,5 +1,5 @@
-# WebGL-practice
-WebGL-practice is a handbook for learning WebGL
+# Gulp-Sass-Boilerplate
+Gulp-Sass-Boilerplate uses gulp, browserSync, Sass, Bootstrap
 
 # How to use
 1. npm install
