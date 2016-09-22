@@ -1,7 +1,7 @@
 {
     "base": {
-        "src": "src/",
-        "build": "build/",
+        "src": "app/",
+        "build": "public/",
         "test": "test/",
         "vendor": "vendor/"
     },
