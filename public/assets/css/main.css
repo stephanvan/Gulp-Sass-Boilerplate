@@ -1,8 +1,7 @@
 html,
 body {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 body {
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -10,5 +9,4 @@ body {
   background: #eee;
   color: #333;
   margin: 0 auto;
-  -webkit-font-smoothing: antialiased;
-}
+  -webkit-font-smoothing: antialiased; }

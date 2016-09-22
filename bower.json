@@ -2,7 +2,8 @@
   "name": "gulp-sass-boilerplate",
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "jquery": "~2.1.0"
+    "jquery": "~2.1.0",
+    "bootstrap-sass": "^3.3.7"
   },
   "ignore": [
     "package.json"

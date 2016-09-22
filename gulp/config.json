@@ -1,0 +1,42 @@
+{
+  "base": {
+    "src": "app/",
+    "build": "public/",
+    "test": "test/",
+    "vendor": "vendor/"
+  },
+  "path": {
+    "sass": "assets/scss/",
+    "sassCommon": "assets/scss/common/",
+    "sassLibs": "assets/scss/libs/",
+    "views": "views/",
+    "css": "assets/css/",
+    "images": "assets/img/",
+    "js": "assets/js/"
+  },
+  "files": {
+    "index": "index.html",
+    "html": "**/*.html",
+    "sassAll": "**/*.scss",
+    "sass": "*.scss",
+    "js": "{,*/,*/*/}*.js",
+    "images": "{,*/,*/*/}*.{png,jpg,jpeg,gif}"
+  },
+  "vendor": {
+    "js": [
+      "vendor/jquery/dist/jquery.js"
+    ],
+    "css": [
+      "vendor/bootstrap/dist/css/bootstrap.css"
+    ],
+    "assets": []
+  },
+  "env": {
+    "prod": {
+
+    },
+    "dev": {
+
+    }
+  }
+}
