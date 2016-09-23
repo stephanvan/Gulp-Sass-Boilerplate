@@ -6,5 +6,10 @@ Gulp-Sass-Boilerplate uses gulp, browserSync, Sass, Bootstrap
 2. bower install
 
 # Run with gulp
+```
 gulp
+
+# Deploy to gh-pages
+```
+gulp deploy-gh-pages
 

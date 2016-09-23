@@ -12,9 +12,3 @@ gulp.task('browserSync', function() {
   })
 });
 
-gulp.task('watch', function() {
-  gulp.watch(config.base.src + config.path.sass + config.files.sassAll, ['sass']);
-  gulp.watch(config.base.src + config.path.js + config.files.js, ['app']);
-  gulp.watch(config.base.src + config.path.views + config.files.html, ['html']);
-
-});

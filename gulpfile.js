@@ -3,7 +3,7 @@ var runSequence = require('run-sequence');
 var requireDir = require('require-dir')('./gulp/tasks', { recurse: true });
 
 gulp.task('default', function(cb) {
-  runSequence('build', 'browserSync', 'watch', cb);
+  runSequence('build', ['browserSync', 'watch'], cb);
 });
 
 

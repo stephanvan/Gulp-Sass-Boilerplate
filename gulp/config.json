@@ -38,5 +38,15 @@
     "dev": {
 
     }
+  },
+  "ghPages": {
+    "remoteUrl": "https://github.com/stephanvan/Gulp-Sass-Boilerplate.git",
+    "branch": "gh-pages"
+  },
+  "ftp": {
+    "ftpHost": "host",
+    "ftpUsername": "username",
+    "ftpPassword": "password",
+    "ftpBasePath": "/htdocs/preview/"
   }
 }
